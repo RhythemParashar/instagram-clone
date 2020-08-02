@@ -1,0 +1,22 @@
+.comment {
+    display: flex;
+}
+
+.comment__username {
+    flex: 0;
+}
+
+.comment__text {
+    flex: 1;
+    padding-left: 5px;
+}
+
+.comment__deletebutton {
+    border: none;
+    color: #6082a3;
+    background-color: transparent;
+}
+
+.comment__deletebutton:hover {
+    background-color: lightgrey;
+}
